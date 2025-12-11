@@ -60,8 +60,7 @@ Click `main.ipynb` and have fun!
 
     * **Data Cleaning:** Removes unused features and "future features" (like actual arrival time) to prevent data leakage.
    
-    * **Label Construction:** Creates classification labels (is_delayed) and regression labels (DEP_DELAY).
-
+    * **Label Construction:** Creates classification labels (IS_DELAYED) and regression labels (DEP_DELAY).
 
     * **Standardization:** Applies StandardScaler to numerical features.
 
