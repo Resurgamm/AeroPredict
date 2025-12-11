@@ -16,7 +16,7 @@ This project is a flight delay prediction system based on Transformers. It utili
 
 * **Complete Data Pipeline:** Includes data extraction, data cleaning, leakage-proof feature engineering, data standardization, and PyTorch Dataset encapsulation.
 
-* **Baseline Comparison:** Integrates Random Forest as a strong baseline to benchmark the performance of the deep learning model.
+* **Baseline Comparison:** Integrates Random Forest and Gradient Boosting Machine as strong baselines to benchmark the performance of the deep learning model.
 
 ### File Structure
 
@@ -71,7 +71,7 @@ Click `main.ipynb` and have fun!
     
     * Train our model named AeroPredictTransformer.
     
-    * Loss Function: Loss = BCEWithLogitsLoss (Classification) + MSELoss (Regression).
+    * **Loss Function:** Loss = BCEWithLogitsLoss (Classification) + MSELoss (Regression).
     
     * Includes learning rate decay strategy (ReduceLROnPlateau).
 
