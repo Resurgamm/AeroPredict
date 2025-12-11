@@ -107,6 +107,8 @@ The model uses an our defined **AeroPredictTransformer** architecture:
   
 ## 📊 Performance Metrics
 
+We evaluate our model and baselines with the following metrics: Accuracy and AUC-ROC for classification, and MAE for regression.
+
 After running the script, you will see output similar to the following:
 
 ```bash
